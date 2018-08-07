@@ -44,7 +44,7 @@
 
             $.ajax({
                 // guardo dentro de la variable url, la direccion web desde donde se lee la API.
-                url: 'http://chatbot.baitsoftware.com/api/DialogMessages',
+                url: 'http://servicios.sartsoftware.com/api/DialogMessages',
 
                 // si la conexion es exitosa, ejecutará la función "respuesta", definida allí mismo.
                 success: function (respuesta) {
