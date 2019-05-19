@@ -1,4 +1,8 @@
 # AJAX-con-Jquery
+
+[<img src="https://github.com/aledc7/PHP-Certification/blob/master/aledc-logo.png?raw=true">](https://aledc.com)
+
+
 ###### Ejemplo de AJAX con Jquery en donde se consulta a una API y se muestra en una tabla básica.
 
 ###### Todo el código está correctamente comentado.
