@@ -88,3 +88,27 @@
 
 </html>
 ```
+
+
+## Función de errores en Ajax
+
+```php
+$.ajax({
+  type: 'POST',
+  url: 'status.ajax.php',
+  data: {
+     deviceId: id
+  },
+  success: function(data){
+     // your code from above
+  },
+  error: function(xhr, textStatus, error){
+      console.log(xhr.statusText);
+      console.log(textStatus);
+      console.log(error);
+  }
+});
+```
+
+
+
